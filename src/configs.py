@@ -23,6 +23,10 @@ class SparkConfig:
     executor_memory: str = dataclasses.field(default="16g")
     executor_cores: int = dataclasses.field(default=1)
     driver_cores: int = dataclasses.field(default=1)
+    dynamic_allocation: bool = dataclasses.field(default=True)
+    min_executors: int = dataclasses.field(default=1)
+    max_executors: int = dataclasses.field(default=10)
+    initial_executors: int = dataclasses.field(default=2)
 
 @dataclasses.dataclass
 class DatabaseConfig:

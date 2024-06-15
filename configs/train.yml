@@ -14,6 +14,10 @@ spark:
   executor_memory: "16g"
   executor_cores: 1
   driver_cores: 1
+  dynamic_allocation: true
+  min_executors: 1
+  max_executors: 10
+  initial_executors: 2
 
 db:
   server: "mssql-server"

@@ -1,15 +1,15 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/datamart_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/datamart_2.12-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	DataMart.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/DataMart.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/DataMart.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	db[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/db[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/db[0m
 [0m[[0m[0mdebug[0m] [0m[0m	db/SparkConfig.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/db/SparkConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/db/SparkConfig.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	db/DbConfig.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/db/DbConfig.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/db/DbConfig.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	db/SQLServer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/db/SQLServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/db/SQLServer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	db/Database.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab7/datamart/target/scala-2.12/classes/db/Database.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/a.gorbatovskiy/ITMO/ITMO_Big_Data_lab8/datamart/target/scala-2.12/classes/db/Database.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

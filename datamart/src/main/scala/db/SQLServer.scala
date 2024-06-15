@@ -8,8 +8,12 @@ class SparkConfig(
     val driverMemory: String,
     val executorMemory: String,
     val executorCores: Int,
-    val driverCores: Int
-                 )
+    val driverCores: Int,
+    val dynamicAllocation: Boolean,
+    val minExecutors: Int,
+    val maxExecutors: Int,
+    val initialExecutors: Int
+    )
 
 class DbConfig(
     val url: String,
@@ -27,6 +31,10 @@ class SQLServer(config: SparkConfig, val dbConfig: DbConfig) extends Database {
         .config("spark.executor.cores", config.executorCores)
         .config("spark.driver.memory", config.driverMemory)
         .config("spark.executor.memory", config.executorMemory)
+        .config("spark.dynamicAllocation.enabled", config.dynamicAllocation)
+        .config("spark.dynamicAllocation.minExecutors", config.minExecutors)
+        .config("spark.dynamicAllocation.maxExecutors", config.maxExecutors)
+        .config("spark.dynamicAllocation.initialExecutors", config.initialExecutors)
         .config("spark.jars", "jars/mssql-jdbc-12.6.1.jre11.jar")
         .config("spark.driver.extraClassPath", "jars/mssql-jdbc-12.6.1.jre11.jar")
         .getOrCreate()
